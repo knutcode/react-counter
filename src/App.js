@@ -1,10 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import Undertext from "./components/Title";
 
 function App() {
   return (
     <div className="App">
-      <h1>lol</h1>
+      <Wrapper>
+        <Title>styled cxdomponent</Title>
+        <Undertext>test</Undertext>
+      </Wrapper>
     </div>
   );
 }
