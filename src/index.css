@@ -9,10 +9,21 @@ body {
 
 h1,
 h2,
+p,
 button {
   color: white;
   font-family: monaco, Consolas, Lucida Console, monospace;
   text-shadow: 0px 0px 2px black;
+  font-weight: bold;
+}
+
+p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+p:hover {
+  color: lightcoral;
 }
 
 .App {
@@ -22,14 +33,14 @@ button {
   align-items: center;
 }
 
-.increase,
-.increase:hover,
-.increase:focus {
+.increase {
   background-color: rgb(113, 233, 113);
 }
 
-.decrease,
-.decrease:hover,
-.decrease:focus {
+.decrease {
   background-color: lightcoral;
+}
+
+.stop {
+  background-color: rgb(161, 161, 161);
 }
