@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 const Title = styled.h1`
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  color: white;
+  font-size: 50px;
+  margin: 0;
 `;
 
 export default Title;

@@ -4,4 +4,32 @@
 
 body {
   margin: 0;
+  background: rgb(53, 52, 68);
+}
+
+h1,
+h2,
+button {
+  color: white;
+  font-family: monaco, Consolas, Lucida Console, monospace;
+  text-shadow: 0px 0px 2px black;
+}
+
+.App {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.increase,
+.increase:hover,
+.increase:focus {
+  background-color: rgb(113, 233, 113);
+}
+
+.decrease,
+.decrease:hover,
+.decrease:focus {
+  background-color: lightcoral;
 }

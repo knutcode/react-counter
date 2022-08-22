@@ -1,13 +1,13 @@
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import BigButton from "./components/BigButton";
+import Wrapper from "./styled-components/Wrapper";
+import Title from "./styled-components/Title";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
       <Wrapper>
-        <Title>styled component</Title>
-        <BigButton>Hello</BigButton>
+        <Title>Counter</Title>
+        <Counter />
       </Wrapper>
     </div>
   );
