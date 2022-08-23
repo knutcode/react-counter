@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Wrapper>
-        <Title>Counter</Title>
+        <Title>counter</Title>
         <Counter />
       </Wrapper>
     </div>
