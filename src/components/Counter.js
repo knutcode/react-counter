@@ -60,14 +60,14 @@ const Counter = () => {
         {!pauseTimer ? "s" : ""}
       </Count>
 
-      {/* visualizing that the counter is incrementing */}
-      <SmallButton className={!pauseTimer && bool ? "increase" : ""} onClick={increment}>
-        increment
-      </SmallButton>
-
       {/* visualizing that the counter is decrementing */}
       <SmallButton className={!pauseTimer && !bool ? "decrease" : ""} onClick={decrement}>
         decrement
+      </SmallButton>
+
+      {/* visualizing that the counter is incrementing */}
+      <SmallButton className={!pauseTimer && bool ? "increase" : ""} onClick={increment}>
+        increment
       </SmallButton>
 
       {/* toggles the timer on or off, and adds some styling */}
