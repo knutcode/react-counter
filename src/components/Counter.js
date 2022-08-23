@@ -39,11 +39,11 @@ const Counter = () => {
   return (
     <>
       <Count>{count}</Count>
-      <SmallButton className="increase" onClick={plus}>
-        Increase
-      </SmallButton>
       <SmallButton className="decrease" onClick={minus}>
         Decrease
+      </SmallButton>
+      <SmallButton className="increase" onClick={plus}>
+        Increase
       </SmallButton>
     </>
   );
