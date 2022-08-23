@@ -50,6 +50,7 @@ const Counter = () => {
   function reset() {
     setCount((count = 0));
     setPauseTimer((pauseTimer = true));
+    setBool(() => (bool = true));
   }
 
   return (
